@@ -22,18 +22,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        subscribeObeservers()
-
-
-
-
         setContentView(R.layout.activity_main)
-        val mCountDownTextView  = findViewById<TextView>(R.id.countDown);
-        val startTime = "11:56:00"
-        val endtime = "14:58:00" // test as
-      CountDownTimer(Utils.getTimeDiff(endtime, startTime), mCountDownTextView)
+      //  subscribeObeservers()
 
-
+       viewModel.timeLeft.observe(this,{it->
+           findViewById<TextView>(R.id.count_down_timer).text = it
+       })
     }
 
     private fun subscribeObeservers(){
@@ -43,22 +37,10 @@ class MainActivity : AppCompatActivity() {
                     log.info("data ${datastate.data}")
                 }
                 is DataState.Error -> {
-                    log.warning("msg form the API ${datastate.msg}")
+                    log.warning("error msg  ${datastate.msg}")
                 }
             }
         })
-    }
-
-    private fun CountDownTimer(diff: Long, mCountDownTextView: TextView) {
-        object : CountDownTimer(diff, 1000) {
-            override fun onTick(millisUntilFinished: Long) {
-                mCountDownTextView.setText(Utils.formatMilliSecondsToTime(millisUntilFinished));
-            }
-
-            override fun onFinish() {
-                log.info("Done")
-            }
-        }.start()
     }
 
 

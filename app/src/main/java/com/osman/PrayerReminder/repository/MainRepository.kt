@@ -18,5 +18,7 @@ class MainRepository constructor(
 
     suspend fun getTimmings() = apiService.get();
 
+    // get and store it in
+
 }
 
