@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import java.util.logging.Logger
 
-object Utils{
+object Utils {
 
     fun formatMilliSecondsToTime(milliseconds: Long): String? {
         val seconds = (milliseconds / 1000).toInt() % 60
@@ -23,12 +23,19 @@ object Utils{
         } else number.toString()
     }
 
-     fun getTimeDiff(endtime: String, startTime: String) =
-         SimpleDateFormat(
-                 "HH:mm:ss", Locale.ENGLISH).parse(endtime)?.time!!- SimpleDateFormat("HH:mm:ss", Locale.ENGLISH)
-                 .parse(startTime)?.time!!
+    fun getTimeDiff(endtime: String, startTime: String) =
+            SimpleDateFormat(
+                    "HH:mm:ss", Locale.ENGLISH).parse(endtime)?.time!! - SimpleDateFormat("HH:mm:ss", Locale.ENGLISH)
+                    .parse(startTime)?.time!!
 
-    }
+
+    fun getCurrentDate(): String = SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(Date())
+
+    fun getCurrentTime() : String = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(Date())
+
+}
+
+
 
 
 

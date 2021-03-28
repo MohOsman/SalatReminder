@@ -23,18 +23,22 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-      //  subscribeObeservers()
+       subscribeObeservers()
 
-       viewModel.timeLeft.observe(this,{it->
-           findViewById<TextView>(R.id.count_down_timer).text = it
-       })
+        observOntimeclick()
+    }
+
+    private fun observOntimeclick() {
+        viewModel.timeLeft.observe(this, { it ->
+            findViewById<TextView>(R.id.count_down_timer).text = it
+        })
     }
 
     private fun subscribeObeservers(){
         viewModel.getTimmings().observe(this,  Observer { datastate ->
             when(datastate){
-                is DataState.Sucsess<Response> -> {
-                    log.info("data ${datastate.data}")
+                is DataState.Sucsess<String> -> {
+
                 }
                 is DataState.Error -> {
                     log.warning("error msg  ${datastate.msg}")

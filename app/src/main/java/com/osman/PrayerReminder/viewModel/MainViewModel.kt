@@ -18,6 +18,8 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import retrofit2.Response.error
+import java.text.SimpleDateFormat
+import java.util.*
 import javax.inject.Inject
 
 @HiltViewModel
@@ -28,6 +30,8 @@ constructor(val mainRepository: MainRepository, private val savedStateHandle: Sa
     val timeLeft = MutableLiveData<String?>()
     val startTime = "11:56:00" // remove later
     val endtime = "14:58:00" // remove later
+
+
     init {
         timer = object : CountDownTimer(Utils.getTimeDiff(endtime,startTime), 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -41,16 +45,19 @@ constructor(val mainRepository: MainRepository, private val savedStateHandle: Sa
         }.start()
     }
 
-    fun getTimmings() = liveData<DataState<Response>>(Dispatchers.IO) {
+    // TODO refactor this and make sure that time recived back from mainRepository is used in Time on Click
+    fun getTimmings() = liveData<DataState<String>>(Dispatchers.IO) {
         emit(DataState.Loading)
         try {
             emit(DataState.Sucsess(data = mainRepository.getTimmings()))
+
         } catch (exception: Exception) {
             emit(DataState.Error(exception.message));
         }
 
-
     }
+
+
 
 
 }

@@ -4,9 +4,10 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 data  class Timings(
-    @SerializedName("Fajer")
+    @SerializedName("Fajr")
     @Expose
     val fajer : String,
+
     @SerializedName("Sunrise")
     @Expose
     val sunrise : String,
