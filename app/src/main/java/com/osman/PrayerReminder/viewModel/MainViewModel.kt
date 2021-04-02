@@ -1,65 +1,58 @@
 package com.osman.PrayerReminder.viewModel
 
-import android.os.Build
 import android.os.CountDownTimer
-import android.provider.ContactsContract
-import android.widget.TextView
-import androidx.annotation.RequiresApi
-import androidx.lifecycle.*
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.osman.PrayerReminder.Utils
-import com.osman.PrayerReminder.model.Response
-import com.osman.PrayerReminder.model.Timings
 import com.osman.PrayerReminder.repository.MainRepository
-import com.osman.PrayerReminder.util.DataState
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dagger.hilt.android.scopes.ViewModelScoped
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.launchIn
-import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import retrofit2.Response.error
-import java.text.SimpleDateFormat
-import java.util.*
+import java.util.logging.Logger
 import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel
 @Inject
 constructor(val mainRepository: MainRepository, private val savedStateHandle: SavedStateHandle) : ViewModel() {
-    lateinit var timer: CountDownTimer
-    val timeLeft = MutableLiveData<String?>()
-    val startTime = "11:56:00" // remove later
-    val endtime = "14:58:00" // remove later
 
+    val log: Logger = Logger.getAnonymousLogger() // TODO replace this shit logger :D
+
+    val timeLeft = MutableLiveData<String?>()
+    val nextPrayer = MutableLiveData<String>()
+    val nextPrayerLabel = MutableLiveData<String>()
 
     init {
-        timer = object : CountDownTimer(Utils.getTimeDiff(endtime,startTime), 1000) {
-            override fun onTick(millisUntilFinished: Long) {
-                timeLeft.value = Utils.formatMilliSecondsToTime(millisUntilFinished)
-            }
-
-            override fun onFinish() {
-                TODO("Not yet implemented")
-            }
-
-        }.start()
+        countDownTimer()
     }
 
-    // TODO refactor this and make sure that time recived back from mainRepository is used in Time on Click
-    fun getTimmings() = liveData<DataState<String>>(Dispatchers.IO) {
-        emit(DataState.Loading)
-        try {
-            emit(DataState.Sucsess(data = mainRepository.getTimmings()))
+    fun countDownTimer() {
+        viewModelScope.launch(Dispatchers.Main) {
+            try {
+                val timeAndLabel = mainRepository.getNextPrayerTime(Utils.getCurrentDate(), Utils.getCurrentTime()).split("#")
+                nextPrayer.value = timeAndLabel[1].split(" ")[1].substring(0, 5)
+                nextPrayerLabel.value = timeAndLabel[0]
+                // TODO  refactor this line, maybe to own func?
+                object : CountDownTimer(Math.abs((Utils.getTimeDiff(Utils.getCurrentDate().plus(" ".plus(Utils.getCurrentTime())), timeAndLabel[1]))), 1000) {
+                    override fun onTick(millisUntilFinished: Long) {
+                        timeLeft.value = Utils.formatMilliSecondsToTime(millisUntilFinished)
+                    }
 
-        } catch (exception: Exception) {
-            emit(DataState.Error(exception.message));
+                    override fun onFinish() {
+                        this.start();
+                    }
+                }.start()
+            } catch (e: Exception) {
+                log.warning(e.toString())
+            }
         }
 
     }
 
 
-
-
 }
+
 
 

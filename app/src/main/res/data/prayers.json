@@ -1,0 +1,2521 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": [
+    {
+      "timings": {
+        "Fajr": "04:29 (CET)",
+        "Sunrise": "06:45 (CET)",
+        "Dhuhr": "12:00 (CET)",
+        "Asr": "14:31 (CET)",
+        "Sunset": "17:17 (CET)",
+        "Maghrib": "17:17 (CET)",
+        "Isha": "19:25 (CET)",
+        "Imsak": "04:19 (CET)",
+        "Midnight": "00:01 (CET)"
+      },
+      "date": {
+        "readable": "01 Mar 2021",
+        "timestamp": "1614585661",
+        "gregorian": {
+          "date": "01-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "01",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "17-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "17",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:26 (CET)",
+        "Sunrise": "06:42 (CET)",
+        "Dhuhr": "12:00 (CET)",
+        "Asr": "14:32 (CET)",
+        "Sunset": "17:19 (CET)",
+        "Maghrib": "17:19 (CET)",
+        "Isha": "19:27 (CET)",
+        "Imsak": "04:16 (CET)",
+        "Midnight": "00:00 (CET)"
+      },
+      "date": {
+        "readable": "02 Mar 2021",
+        "timestamp": "1614672061",
+        "gregorian": {
+          "date": "02-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "02",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "18-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "18",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:23 (CET)",
+        "Sunrise": "06:39 (CET)",
+        "Dhuhr": "12:00 (CET)",
+        "Asr": "14:34 (CET)",
+        "Sunset": "17:22 (CET)",
+        "Maghrib": "17:22 (CET)",
+        "Isha": "19:30 (CET)",
+        "Imsak": "04:13 (CET)",
+        "Midnight": "00:00 (CET)"
+      },
+      "date": {
+        "readable": "03 Mar 2021",
+        "timestamp": "1614758461",
+        "gregorian": {
+          "date": "03-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "03",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "19-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "19",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:20 (CET)",
+        "Sunrise": "06:36 (CET)",
+        "Dhuhr": "11:59 (CET)",
+        "Asr": "14:36 (CET)",
+        "Sunset": "17:24 (CET)",
+        "Maghrib": "17:24 (CET)",
+        "Isha": "19:32 (CET)",
+        "Imsak": "04:10 (CET)",
+        "Midnight": "00:00 (CET)"
+      },
+      "date": {
+        "readable": "04 Mar 2021",
+        "timestamp": "1614844861",
+        "gregorian": {
+          "date": "04-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "04",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "20-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "20",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:17 (CET)",
+        "Sunrise": "06:33 (CET)",
+        "Dhuhr": "11:59 (CET)",
+        "Asr": "14:37 (CET)",
+        "Sunset": "17:26 (CET)",
+        "Maghrib": "17:26 (CET)",
+        "Isha": "19:35 (CET)",
+        "Imsak": "04:07 (CET)",
+        "Midnight": "00:00 (CET)"
+      },
+      "date": {
+        "readable": "05 Mar 2021",
+        "timestamp": "1614931261",
+        "gregorian": {
+          "date": "05-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "05",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "21-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "21",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:14 (CET)",
+        "Sunrise": "06:30 (CET)",
+        "Dhuhr": "11:59 (CET)",
+        "Asr": "14:39 (CET)",
+        "Sunset": "17:29 (CET)",
+        "Maghrib": "17:29 (CET)",
+        "Isha": "19:37 (CET)",
+        "Imsak": "04:04 (CET)",
+        "Midnight": "00:00 (CET)"
+      },
+      "date": {
+        "readable": "06 Mar 2021",
+        "timestamp": "1615017661",
+        "gregorian": {
+          "date": "06-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "06",
+          "weekday": {
+            "en": "Saturday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "22-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "22",
+          "weekday": {
+            "en": "Al Sabt",
+            "ar": "السبت"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:11 (CET)",
+        "Sunrise": "06:27 (CET)",
+        "Dhuhr": "11:59 (CET)",
+        "Asr": "14:41 (CET)",
+        "Sunset": "17:31 (CET)",
+        "Maghrib": "17:31 (CET)",
+        "Isha": "19:40 (CET)",
+        "Imsak": "04:01 (CET)",
+        "Midnight": "23:59 (CET)"
+      },
+      "date": {
+        "readable": "07 Mar 2021",
+        "timestamp": "1615104061",
+        "gregorian": {
+          "date": "07-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "07",
+          "weekday": {
+            "en": "Sunday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "23-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "23",
+          "weekday": {
+            "en": "Al Ahad",
+            "ar": "الاحد"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:08 (CET)",
+        "Sunrise": "06:25 (CET)",
+        "Dhuhr": "11:58 (CET)",
+        "Asr": "14:43 (CET)",
+        "Sunset": "17:34 (CET)",
+        "Maghrib": "17:34 (CET)",
+        "Isha": "19:43 (CET)",
+        "Imsak": "03:58 (CET)",
+        "Midnight": "23:59 (CET)"
+      },
+      "date": {
+        "readable": "08 Mar 2021",
+        "timestamp": "1615190461",
+        "gregorian": {
+          "date": "08-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "08",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "24-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "24",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:04 (CET)",
+        "Sunrise": "06:22 (CET)",
+        "Dhuhr": "11:58 (CET)",
+        "Asr": "14:44 (CET)",
+        "Sunset": "17:36 (CET)",
+        "Maghrib": "17:36 (CET)",
+        "Isha": "19:45 (CET)",
+        "Imsak": "03:54 (CET)",
+        "Midnight": "23:59 (CET)"
+      },
+      "date": {
+        "readable": "09 Mar 2021",
+        "timestamp": "1615276861",
+        "gregorian": {
+          "date": "09-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "09",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "25-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "25",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:01 (CET)",
+        "Sunrise": "06:19 (CET)",
+        "Dhuhr": "11:58 (CET)",
+        "Asr": "14:46 (CET)",
+        "Sunset": "17:39 (CET)",
+        "Maghrib": "17:39 (CET)",
+        "Isha": "19:48 (CET)",
+        "Imsak": "03:51 (CET)",
+        "Midnight": "23:59 (CET)"
+      },
+      "date": {
+        "readable": "10 Mar 2021",
+        "timestamp": "1615363261",
+        "gregorian": {
+          "date": "10-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "10",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "26-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "26",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:58 (CET)",
+        "Sunrise": "06:16 (CET)",
+        "Dhuhr": "11:58 (CET)",
+        "Asr": "14:48 (CET)",
+        "Sunset": "17:41 (CET)",
+        "Maghrib": "17:41 (CET)",
+        "Isha": "19:51 (CET)",
+        "Imsak": "03:48 (CET)",
+        "Midnight": "23:58 (CET)"
+      },
+      "date": {
+        "readable": "11 Mar 2021",
+        "timestamp": "1615449661",
+        "gregorian": {
+          "date": "11-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "11",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "27-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "27",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": [
+            "Lailat-ul-Miraj"
+          ]
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:55 (CET)",
+        "Sunrise": "06:13 (CET)",
+        "Dhuhr": "11:57 (CET)",
+        "Asr": "14:49 (CET)",
+        "Sunset": "17:43 (CET)",
+        "Maghrib": "17:43 (CET)",
+        "Isha": "19:53 (CET)",
+        "Imsak": "03:45 (CET)",
+        "Midnight": "23:58 (CET)"
+      },
+      "date": {
+        "readable": "12 Mar 2021",
+        "timestamp": "1615536061",
+        "gregorian": {
+          "date": "12-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "12",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "28-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "28",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:51 (CET)",
+        "Sunrise": "06:10 (CET)",
+        "Dhuhr": "11:57 (CET)",
+        "Asr": "14:51 (CET)",
+        "Sunset": "17:46 (CET)",
+        "Maghrib": "17:46 (CET)",
+        "Isha": "19:56 (CET)",
+        "Imsak": "03:41 (CET)",
+        "Midnight": "23:58 (CET)"
+      },
+      "date": {
+        "readable": "13 Mar 2021",
+        "timestamp": "1615622461",
+        "gregorian": {
+          "date": "13-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "13",
+          "weekday": {
+            "en": "Saturday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "29-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "29",
+          "weekday": {
+            "en": "Al Sabt",
+            "ar": "السبت"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:48 (CET)",
+        "Sunrise": "06:07 (CET)",
+        "Dhuhr": "11:57 (CET)",
+        "Asr": "14:52 (CET)",
+        "Sunset": "17:48 (CET)",
+        "Maghrib": "17:48 (CET)",
+        "Isha": "19:59 (CET)",
+        "Imsak": "03:38 (CET)",
+        "Midnight": "23:58 (CET)"
+      },
+      "date": {
+        "readable": "14 Mar 2021",
+        "timestamp": "1615708861",
+        "gregorian": {
+          "date": "14-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "14",
+          "weekday": {
+            "en": "Sunday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "30-07-1442",
+          "format": "DD-MM-YYYY",
+          "day": "30",
+          "weekday": {
+            "en": "Al Ahad",
+            "ar": "الاحد"
+          },
+          "month": {
+            "number": 7,
+            "en": "Rajab",
+            "ar": "رَجَب"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:45 (CET)",
+        "Sunrise": "06:04 (CET)",
+        "Dhuhr": "11:57 (CET)",
+        "Asr": "14:54 (CET)",
+        "Sunset": "17:51 (CET)",
+        "Maghrib": "17:51 (CET)",
+        "Isha": "20:02 (CET)",
+        "Imsak": "03:35 (CET)",
+        "Midnight": "23:57 (CET)"
+      },
+      "date": {
+        "readable": "15 Mar 2021",
+        "timestamp": "1615795261",
+        "gregorian": {
+          "date": "15-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "15",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "01-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "01",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:41 (CET)",
+        "Sunrise": "06:01 (CET)",
+        "Dhuhr": "11:56 (CET)",
+        "Asr": "14:56 (CET)",
+        "Sunset": "17:53 (CET)",
+        "Maghrib": "17:53 (CET)",
+        "Isha": "20:04 (CET)",
+        "Imsak": "03:31 (CET)",
+        "Midnight": "23:57 (CET)"
+      },
+      "date": {
+        "readable": "16 Mar 2021",
+        "timestamp": "1615881661",
+        "gregorian": {
+          "date": "16-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "16",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "02-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "02",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:38 (CET)",
+        "Sunrise": "05:58 (CET)",
+        "Dhuhr": "11:56 (CET)",
+        "Asr": "14:57 (CET)",
+        "Sunset": "17:55 (CET)",
+        "Maghrib": "17:55 (CET)",
+        "Isha": "20:07 (CET)",
+        "Imsak": "03:28 (CET)",
+        "Midnight": "23:57 (CET)"
+      },
+      "date": {
+        "readable": "17 Mar 2021",
+        "timestamp": "1615968061",
+        "gregorian": {
+          "date": "17-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "17",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "03-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "03",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:34 (CET)",
+        "Sunrise": "05:55 (CET)",
+        "Dhuhr": "11:56 (CET)",
+        "Asr": "14:59 (CET)",
+        "Sunset": "17:58 (CET)",
+        "Maghrib": "17:58 (CET)",
+        "Isha": "20:10 (CET)",
+        "Imsak": "03:24 (CET)",
+        "Midnight": "23:56 (CET)"
+      },
+      "date": {
+        "readable": "18 Mar 2021",
+        "timestamp": "1616054461",
+        "gregorian": {
+          "date": "18-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "18",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "04-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "04",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:31 (CET)",
+        "Sunrise": "05:52 (CET)",
+        "Dhuhr": "11:55 (CET)",
+        "Asr": "15:00 (CET)",
+        "Sunset": "18:00 (CET)",
+        "Maghrib": "18:00 (CET)",
+        "Isha": "20:13 (CET)",
+        "Imsak": "03:21 (CET)",
+        "Midnight": "23:56 (CET)"
+      },
+      "date": {
+        "readable": "19 Mar 2021",
+        "timestamp": "1616140861",
+        "gregorian": {
+          "date": "19-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "19",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "05-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "05",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:27 (CET)",
+        "Sunrise": "05:49 (CET)",
+        "Dhuhr": "11:55 (CET)",
+        "Asr": "15:02 (CET)",
+        "Sunset": "18:02 (CET)",
+        "Maghrib": "18:02 (CET)",
+        "Isha": "20:16 (CET)",
+        "Imsak": "03:17 (CET)",
+        "Midnight": "23:56 (CET)"
+      },
+      "date": {
+        "readable": "20 Mar 2021",
+        "timestamp": "1616227261",
+        "gregorian": {
+          "date": "20-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "20",
+          "weekday": {
+            "en": "Saturday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "06-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "06",
+          "weekday": {
+            "en": "Al Sabt",
+            "ar": "السبت"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:23 (CET)",
+        "Sunrise": "05:46 (CET)",
+        "Dhuhr": "11:55 (CET)",
+        "Asr": "15:03 (CET)",
+        "Sunset": "18:05 (CET)",
+        "Maghrib": "18:05 (CET)",
+        "Isha": "20:19 (CET)",
+        "Imsak": "03:13 (CET)",
+        "Midnight": "23:56 (CET)"
+      },
+      "date": {
+        "readable": "21 Mar 2021",
+        "timestamp": "1616313661",
+        "gregorian": {
+          "date": "21-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "21",
+          "weekday": {
+            "en": "Sunday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "07-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "07",
+          "weekday": {
+            "en": "Al Ahad",
+            "ar": "الاحد"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:20 (CET)",
+        "Sunrise": "05:43 (CET)",
+        "Dhuhr": "11:55 (CET)",
+        "Asr": "15:05 (CET)",
+        "Sunset": "18:07 (CET)",
+        "Maghrib": "18:07 (CET)",
+        "Isha": "20:22 (CET)",
+        "Imsak": "03:10 (CET)",
+        "Midnight": "23:55 (CET)"
+      },
+      "date": {
+        "readable": "22 Mar 2021",
+        "timestamp": "1616400061",
+        "gregorian": {
+          "date": "22-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "22",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "08-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "08",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:16 (CET)",
+        "Sunrise": "05:40 (CET)",
+        "Dhuhr": "11:54 (CET)",
+        "Asr": "15:06 (CET)",
+        "Sunset": "18:10 (CET)",
+        "Maghrib": "18:10 (CET)",
+        "Isha": "20:25 (CET)",
+        "Imsak": "03:06 (CET)",
+        "Midnight": "23:55 (CET)"
+      },
+      "date": {
+        "readable": "23 Mar 2021",
+        "timestamp": "1616486461",
+        "gregorian": {
+          "date": "23-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "23",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "09-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "09",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:12 (CET)",
+        "Sunrise": "05:37 (CET)",
+        "Dhuhr": "11:54 (CET)",
+        "Asr": "15:08 (CET)",
+        "Sunset": "18:12 (CET)",
+        "Maghrib": "18:12 (CET)",
+        "Isha": "20:28 (CET)",
+        "Imsak": "03:02 (CET)",
+        "Midnight": "23:55 (CET)"
+      },
+      "date": {
+        "readable": "24 Mar 2021",
+        "timestamp": "1616572861",
+        "gregorian": {
+          "date": "24-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "24",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "10-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "10",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:08 (CET)",
+        "Sunrise": "05:34 (CET)",
+        "Dhuhr": "11:54 (CET)",
+        "Asr": "15:09 (CET)",
+        "Sunset": "18:14 (CET)",
+        "Maghrib": "18:14 (CET)",
+        "Isha": "20:31 (CET)",
+        "Imsak": "02:58 (CET)",
+        "Midnight": "23:54 (CET)"
+      },
+      "date": {
+        "readable": "25 Mar 2021",
+        "timestamp": "1616659261",
+        "gregorian": {
+          "date": "25-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "25",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "11-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "11",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:04 (CET)",
+        "Sunrise": "05:31 (CET)",
+        "Dhuhr": "11:53 (CET)",
+        "Asr": "15:10 (CET)",
+        "Sunset": "18:17 (CET)",
+        "Maghrib": "18:17 (CET)",
+        "Isha": "20:34 (CET)",
+        "Imsak": "02:54 (CET)",
+        "Midnight": "23:54 (CET)"
+      },
+      "date": {
+        "readable": "26 Mar 2021",
+        "timestamp": "1616745661",
+        "gregorian": {
+          "date": "26-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "26",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "12-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "12",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:00 (CET)",
+        "Sunrise": "05:28 (CET)",
+        "Dhuhr": "11:53 (CET)",
+        "Asr": "15:12 (CET)",
+        "Sunset": "18:19 (CET)",
+        "Maghrib": "18:19 (CET)",
+        "Isha": "20:38 (CET)",
+        "Imsak": "02:50 (CET)",
+        "Midnight": "23:54 (CET)"
+      },
+      "date": {
+        "readable": "27 Mar 2021",
+        "timestamp": "1616832061",
+        "gregorian": {
+          "date": "27-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "27",
+          "weekday": {
+            "en": "Saturday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "13-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "13",
+          "weekday": {
+            "en": "Al Sabt",
+            "ar": "السبت"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:56 (CEST)",
+        "Sunrise": "06:25 (CEST)",
+        "Dhuhr": "12:53 (CEST)",
+        "Asr": "16:13 (CEST)",
+        "Sunset": "19:21 (CEST)",
+        "Maghrib": "19:21 (CEST)",
+        "Isha": "21:41 (CEST)",
+        "Imsak": "03:46 (CEST)",
+        "Midnight": "00:53 (CEST)"
+      },
+      "date": {
+        "readable": "28 Mar 2021",
+        "timestamp": "1616918461",
+        "gregorian": {
+          "date": "28-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "28",
+          "weekday": {
+            "en": "Sunday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "14-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "14",
+          "weekday": {
+            "en": "Al Ahad",
+            "ar": "الاحد"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:52 (CEST)",
+        "Sunrise": "06:23 (CEST)",
+        "Dhuhr": "12:52 (CEST)",
+        "Asr": "16:15 (CEST)",
+        "Sunset": "19:24 (CEST)",
+        "Maghrib": "19:24 (CEST)",
+        "Isha": "21:44 (CEST)",
+        "Imsak": "03:42 (CEST)",
+        "Midnight": "00:53 (CEST)"
+      },
+      "date": {
+        "readable": "29 Mar 2021",
+        "timestamp": "1617004861",
+        "gregorian": {
+          "date": "29-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "29",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "15-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "15",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": [
+            "Lailat-ul-Bara'at"
+          ]
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:48 (CEST)",
+        "Sunrise": "06:20 (CEST)",
+        "Dhuhr": "12:52 (CEST)",
+        "Asr": "16:16 (CEST)",
+        "Sunset": "19:26 (CEST)",
+        "Maghrib": "19:26 (CEST)",
+        "Isha": "21:48 (CEST)",
+        "Imsak": "03:38 (CEST)",
+        "Midnight": "00:53 (CEST)"
+      },
+      "date": {
+        "readable": "30 Mar 2021",
+        "timestamp": "1617091261",
+        "gregorian": {
+          "date": "30-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "30",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "16-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "16",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "03:44 (CEST)",
+        "Sunrise": "06:17 (CEST)",
+        "Dhuhr": "12:52 (CEST)",
+        "Asr": "16:17 (CEST)",
+        "Sunset": "19:28 (CEST)",
+        "Maghrib": "19:28 (CEST)",
+        "Isha": "21:51 (CEST)",
+        "Imsak": "03:34 (CEST)",
+        "Midnight": "00:53 (CEST)"
+      },
+      "date": {
+        "readable": "31 Mar 2021",
+        "timestamp": "1617177661",
+        "gregorian": {
+          "date": "31-03-2021",
+          "format": "DD-MM-YYYY",
+          "day": "31",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 3,
+            "en": "March"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "17-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "17",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 59.3293235,
+        "longitude": 18.0685808,
+        "timezone": "Europe/Stockholm",
+        "method": {
+          "id": 3,
+          "name": "Muslim World League",
+          "params": {
+            "Fajr": 18,
+            "Isha": 17
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    }
+  ]
+}

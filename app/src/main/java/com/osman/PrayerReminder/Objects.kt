@@ -2,11 +2,10 @@ package com.osman.PrayerReminder
 
 import java.text.SimpleDateFormat
 import java.util.*
-import java.util.logging.Logger
 
 object Utils {
 
-    fun formatMilliSecondsToTime(milliseconds: Long): String? {
+    fun formatMilliSecondsToTime(milliseconds: Long): String {
         val seconds = (milliseconds / 1000).toInt() % 60
         val minutes = (milliseconds / (1000 * 60) % 60).toInt()
         val hours = (milliseconds / (1000 * 60 * 60) % 24).toInt()
@@ -23,15 +22,16 @@ object Utils {
         } else number.toString()
     }
 
-    fun getTimeDiff(endtime: String, startTime: String) =
-            SimpleDateFormat(
-                    "HH:mm:ss", Locale.ENGLISH).parse(endtime)?.time!! - SimpleDateFormat("HH:mm:ss", Locale.ENGLISH)
-                    .parse(startTime)?.time!!
-
+    fun getTimeDiff(endtime: String, startTime: String): Long {
+        val endTimeParsed = SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.getDefault()).parse(endtime)?.time!!
+        val startTimeParsed = SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.getDefault()).parse(startTime)?.time!!
+        return endTimeParsed - startTimeParsed
+    }
 
     fun getCurrentDate(): String = SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(Date())
-
-    fun getCurrentTime() : String = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(Date())
+    fun getCurrentTime() = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(Date())
+    fun getYear() = SimpleDateFormat("yyyy", Locale.getDefault()).format(Date())
+    fun getMonth() = SimpleDateFormat("MM", Locale.getDefault()).format(Date())
 
 }
 
