@@ -1,9 +1,10 @@
 package com.osman.PrayerReminder
 
+import com.osman.PrayerReminder.model.Timings
 import java.text.SimpleDateFormat
 import java.util.*
 
-object Utils {
+object TimeUtil {
 
     fun formatMilliSecondsToTime(milliseconds: Long): String {
         val seconds = (milliseconds / 1000).toInt() % 60
@@ -32,6 +33,37 @@ object Utils {
     fun getCurrentTime() = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(Date())
     fun getYear() = SimpleDateFormat("yyyy", Locale.getDefault()).format(Date())
     fun getMonth() = SimpleDateFormat("MM", Locale.getDefault()).format(Date())
+    fun formatedTime(currentDate: String?, currentTime: String?): Date = SimpleDateFormat("dd-MM-yyyy HH:mm:ss",
+            Locale.getDefault()).parse(currentDate.plus(" ".plus(currentTime)))!!
+
+    fun formatedTime(time: String?): Date = SimpleDateFormat("HH:mm:ss",
+            Locale.getDefault()).parse(time!!)!!
+
+    fun calculateTimeDiff(time: String) =
+            Math.abs((TimeUtil.getTimeDiff(TimeUtil.getCurrentDate().plus(" ".plus(TimeUtil.getCurrentTime())), time)))
+
+    fun getDiffTimeInSeconds(milliseconds: Long): Long = (milliseconds / 1000)
+
+    fun convertRemainingTimeToPrecent(seconds: Long): Long {
+        return seconds / 100
+    }
+
+
+}
+
+object GeneralUtil {
+
+    fun TimesToMap(timmings: Timings?): MutableMap<String, String?> {
+        val prayerTimeList = mutableMapOf<String, String?>()
+        prayerTimeList.put("Fajr", timmings?.fajer)
+        prayerTimeList.put("Sunrise", timmings?.sunrise)
+        prayerTimeList.put("Dhuhr", timmings?.dhuhr)
+        prayerTimeList.put("Asr", timmings?.asr)
+        prayerTimeList.put("Magrib", timmings?.maghrib)
+        prayerTimeList.put("Isha", timmings?.isha)
+        return prayerTimeList
+    }
+
 
 }
 

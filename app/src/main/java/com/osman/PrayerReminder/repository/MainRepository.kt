@@ -1,70 +1,64 @@
 package com.osman.PrayerReminder.repository
 
+import com.osman.PrayerReminder.GeneralUtil.TimesToMap
+import com.osman.PrayerReminder.Mapper.PrayertimeNetworkMapper
 import com.osman.PrayerReminder.Service.ApiService
-import com.osman.PrayerReminder.model.Data
+import com.osman.PrayerReminder.TimeUtil
+import com.osman.PrayerReminder.model.Prayertime
 import com.osman.PrayerReminder.model.Timings
-import java.text.SimpleDateFormat
 import java.util.*
-import java.util.logging.Logger
 
 
 class MainRepository constructor(
-        private val apiService: ApiService
+        private val apiService: ApiService,
+        private val mapper: PrayertimeNetworkMapper
 
 ) {
-    val log: Logger = Logger.getAnonymousLogger();
 
-    suspend fun getNextPrayerTime(currentDate: String, currentTime: String): String {
-        val response = apiService.get()
-        for (i in response.data.indices) {
-            if (response.data[i].date.gregorian.date == currentDate && timePassedIsha(response.data[i], currentTime)) {
-                return calculateNextPrayer(currentTime, currentDate, response.data[i + 1].date.gregorian.date, response.data[i + 1].timings)
-            } else if (response.data[i].date.gregorian.date.equals(currentDate)) {
-                val timings = response.data[i].timings
-                return calculateNextPrayer(currentTime, response.data[i].date.gregorian.date, currentDate, timings)
+    suspend fun getPrayertimes(): List<Prayertime> = mapper.mapToDomainModel(apiService.get())
+
+    suspend fun getNextPrayerTime(currentDate: String, currentTime: String) = getPrayerTime(getPrayertimes(), currentDate, currentTime)
+
+    private fun getPrayerTime(prayertimes: List<Prayertime>, currentDate: String, currentTime: String): String {
+        var nextprayerTime = ""
+        for (i in prayertimes.indices) {
+            if (prayertimes[i].date == currentDate && timePassedIsha(prayertimes[i], currentTime)) {
+                nextprayerTime = calculateNextPrayer(currentTime, currentDate, prayertimes[i + 1].date, prayertimes[i + 1].timings)
+                break
+            } else if (prayertimes[i].date.equals(currentDate)) {
+                nextprayerTime = calculateNextPrayer(currentTime, prayertimes[i].date, currentDate, prayertimes[i].timings)
+                break
             }
         }
-
-        throw Exception("Prayer Time Not found")  // TODO mybe this is the the right  way to handle this. change in future.
+        return nextprayerTime
     }
 
-    private fun timePassedIsha(data: Data, currentTime: String): Boolean {
-        val ishatime = Calendar.getInstance();
+    private fun timePassedIsha(prayerTimes: Prayertime?, currentTime: String): Boolean {
+        val ishaTime = Calendar.getInstance();
         val currentTimeInstance = Calendar.getInstance();
-        ishatime.time = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).parse(data.timings.isha.substring(0, 5).plus(":00"))!!
-        currentTimeInstance.time = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).parse(currentTime)!!
-        return (currentTimeInstance.after(ishatime))
-
+        ishaTime.time = TimeUtil.formatedTime(prayerTimes?.timings?.isha?.substring(0, 5).plus(":00"))
+        currentTimeInstance.time = TimeUtil.formatedTime(currentTime)
+        return (currentTimeInstance.after(ishaTime))
     }
 
-
-    private fun calculateNextPrayer(currenTime: String, currentDate: String, prayerDate: String, timmings: Timings): String {
-        val calender: Calendar = Calendar.getInstance();
-        calender.time = SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.getDefault()).parse(currentDate.plus(" ".plus(currenTime)))!!;
+    private fun calculateNextPrayer(currenTime: String?, currentDate: String?, prayerDate: String?, timmings: Timings?): String {
+        var calculatedNextPrayer = ""
+        val currentTimeCalender: Calendar = Calendar.getInstance()
+        currentTimeCalender.time = TimeUtil.formatedTime(currentDate, currenTime)
         val prayerTimeList = TimesToMap(timmings)
         for ((prayerName, prayerString) in prayerTimeList) {
             val prayerCalenderInstance = Calendar.getInstance()
-            val prayerTime = prayerString.substring(0, 5).plus(":00")
-            prayerCalenderInstance.time = SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.getDefault()).parse(prayerDate.plus(" ".plus(prayerTime)))!!;
-            if (calender.time.before(prayerCalenderInstance.time)) {
-                log.info(prayerName.plus("-").plus(prayerDate.plus("-").plus(prayerTime)))
-                return prayerName.plus("#").plus(prayerDate.plus(" ").plus(prayerTime))
+            val prayerTime = prayerString?.substring(0, 5).plus(":00")
+            prayerCalenderInstance.time = TimeUtil.formatedTime(prayerDate, prayerTime)
+            if (isAfterPrayer(currentTimeCalender, prayerCalenderInstance)) {
+                calculatedNextPrayer = prayerName.plus("#").plus(prayerDate.plus(" ").plus(prayerTime))
+                break
             }
         }
-        return "noThing"  // TODO handle this
+        return calculatedNextPrayer
     }
 
-    private fun TimesToMap(timmings: Timings): MutableMap<String, String> {
-        val prayerTimeList = mutableMapOf<String, String>()
-        prayerTimeList.put("Fajr", timmings.fajer)
-        prayerTimeList.put("Dhuhr", timmings.dhuhr)
-        prayerTimeList.put("Asr", timmings.asr)
-        prayerTimeList.put("Magrib", timmings.maghrib)
-        prayerTimeList.put("Isha", timmings.isha)
-        prayerTimeList.put("Sunrise", timmings.sunrise)
-        return prayerTimeList
-    }
-
+    private fun isAfterPrayer(currentTimeCalender: Calendar, prayerCalenderInstance: Calendar) = (currentTimeCalender.time.before(prayerCalenderInstance.time))
 
 }
 

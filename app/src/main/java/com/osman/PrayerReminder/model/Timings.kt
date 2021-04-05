@@ -1,33 +1,11 @@
 package com.osman.PrayerReminder.model
 
-import com.google.gson.annotations.Expose
-import com.google.gson.annotations.SerializedName
-
-data  class Timings(
-    @SerializedName("Fajr")
-    @Expose
-    val fajer : String,
-
-    @SerializedName("Sunrise")
-    @Expose
-    val sunrise : String,
-    @SerializedName("Dhuhr")
-    @Expose
-     val dhuhr : String,
-    @SerializedName("Asr")
-    @Expose
-    val asr : String,
-    @SerializedName("Maghrib")
-    @Expose
-    val maghrib : String,
-    @SerializedName("Isha")
-    @Expose
-    val isha : String,
-    @SerializedName("Midnight")
-    @Expose
-    val midnight : String,
-    @SerializedName("Imsak")
-    @Expose
-    val imsak : String,
+data class Timings(
+        val fajer: String?,
+        val sunrise: String?,
+        val dhuhr: String?,
+        val asr: String?,
+        val maghrib: String?,
+        val isha: String?,
 ) {
 }

@@ -1,6 +1,7 @@
 package com.osman.PrayerReminder
 
 import android.os.Bundle
+import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -16,12 +17,12 @@ class MainActivity : AppCompatActivity() {
 
     val log : Logger = Logger.getAnonymousLogger()
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         observOntimeclick()
         setContentView(R.layout.activity_main)
-
+        findViewById<ProgressBar>(R.id.progress_bar).setProgress(100)
     }
+
 
     private fun observOntimeclick() {
         viewModel.timeLeft.observe(this, {
@@ -34,21 +35,5 @@ class MainActivity : AppCompatActivity() {
         viewModel.nextPrayer.observe(this, {
             findViewById<TextView>(R.id.time_label).text = it
         })
-
-
-        /*private fun subscribeObeservers(){
-        viewModel.getTimmings().observe(this,  Observer { datastate ->
-            when(datastate){
-                is DataState.Sucsess<String> -> {
-
-                }
-                is DataState.Error -> {
-                    log.warning("error msg  ${datastate.msg}")
-                }
-            }
-        })
-    }*/
-
-
     }
 }

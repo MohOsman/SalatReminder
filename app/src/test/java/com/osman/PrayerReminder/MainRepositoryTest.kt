@@ -1,5 +1,6 @@
 package com.osman.PrayerReminder
 
+import com.osman.PrayerReminder.Mapper.PrayertimeNetworkMapper
 import com.osman.PrayerReminder.Service.ApiService
 import com.osman.PrayerReminder.repository.MainRepository
 import junit.framework.Assert.assertEquals
@@ -27,7 +28,8 @@ class MainRepositoryTest {
     fun setUp() {
         MockitoAnnotations.openMocks(this)
         Dispatchers.setMain(testDispatcher)
-        mainRepository = MainRepository(mockApiService)
+        val mapper = PrayertimeNetworkMapper()
+        mainRepository = MainRepository(mockApiService, mapper)
     }
 
 
